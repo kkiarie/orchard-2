@@ -1,17 +1,16 @@
 version: "2.0"
 stories:
-- story: happy price
+- story: Story salutations
   steps:
   - intent: greet
   - action: action_greet
-  - intent: mood_great
-  - action: utter_happy
-  - intent: chitchat_pricing
-  - action: utter_chitchat_pricing
   - intent: goodbye
   - action: action_goodbye
-- story: Happy Path
+- story: Story 1
   steps:
-  - action: utter_chitchat_identity
+  - intent: greet
+  - action: action_greet
   - intent: chitchat_creativeorchards
   - action: utter_chitchat_creativeorchards
+  - intent: goodbye
+  - action: action_goodbye
