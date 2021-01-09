@@ -14,3 +14,11 @@ stories:
   - action: utter_chitchat_creativeorchards
   - intent: goodbye
   - action: action_goodbye
+- story: Story from Conversation ID 3a2cebdfe291414ea4e166d6dd48f220
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: nlu_fallback
+  - action: utter_chitchat_creativeorchards
+  - intent: chitchat_pricing
+  - action: utter_chitchat_pricing

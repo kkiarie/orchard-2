@@ -104,6 +104,7 @@ nlu:
     - price
     - what about prices
     - what is the price of smart assistant
+    - how much does it cost to have a smart assistant
 - intent: chitchat_smart_assistant
   examples: |
     - can i get a smart assistant for my business
