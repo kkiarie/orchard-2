@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -49,7 +45,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -66,7 +61,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,11 +77,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
-
-
-##### extra lines
-
 - intent: chitchat_creativeorchards
   examples: |
     - tell me about creative orchards
@@ -96,8 +85,7 @@ nlu:
     - services
     - what services do you offer
     - products
-    - what are your products    
-
+    - what are your products
 - intent: chitchat_identity
   examples: |
     - what are you
@@ -105,18 +93,17 @@ nlu:
     - smart assistant
     - are you a bot
     - tell me about yourself
-    - more about you  
-
+    - more about you
 - intent: chitchat_pricing
   examples: |
     - what the price of getting a smart assistant
     - can i be able to buy smart assistant
     - can i able to purchase smart assistant
-
+    - price
 - intent: chitchat_smart_assistant
   examples: |
     - can i get a smart assistant for my business
     - i want a smart assistant for my business
     - my business needs a smart assistant
     - can i automate my business with a smart assistant
-    - tell me about smart assistants    
+    - tell me about smart assistants
