@@ -1,0 +1,50 @@
+version: "2.0"
+
+stories:
+
+- story: happy price
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: chitchat_pricing
+  - action: utter_chitchat_pricing
+  - intent: goodbye
+  - action: action_goodbye
+
+
+- story: happy creativeorchards
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: chitchat_creativeorchards
+  - action: utter_chitchat_creativeorchards
+  - intent: goodbye
+  - action: action_goodbye
+
+
+- story: happy identity
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: chitchat_identity
+  - action: utter_chitchat_identity
+  - intent: goodbye
+  - action: action_goodbye  
+
+
+- story: happy smart
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: chitchat_smart_assistant
+  - action: utter_chitchat_smart_assistant
+  - intent: goodbye
+  - action: action_goodbye    
