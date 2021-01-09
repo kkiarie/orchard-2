@@ -87,6 +87,8 @@ nlu:
     - products
     - what are your products
     - what products do you offer
+    - what services  do you offer
+    - what service do you offer
 - intent: chitchat_identity
   examples: |
     - what are you
@@ -105,6 +107,7 @@ nlu:
     - what about prices
     - what is the price of smart assistant
     - how much does it cost to have a smart assistant
+    - what is the price smart assistants
 - intent: chitchat_smart_assistant
   examples: |
     - can i get a smart assistant for my business
