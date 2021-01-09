@@ -103,6 +103,7 @@ nlu:
     - can i able to purchase smart assistant
     - price
     - what about prices
+    - what is the price of smart assistant
 - intent: chitchat_smart_assistant
   examples: |
     - can i get a smart assistant for my business
