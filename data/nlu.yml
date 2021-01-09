@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - Hello
 - intent: goodbye
   examples: |
     - good afternoon
@@ -28,6 +29,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - bye for now
+    - Bye
 - intent: affirm
   examples: |
     - yes
@@ -61,6 +64,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - nice
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -89,6 +93,8 @@ nlu:
     - what products do you offer
     - what services  do you offer
     - what service do you offer
+    - tell me about your services
+    - What services do you offer
 - intent: chitchat_identity
   examples: |
     - what are you
